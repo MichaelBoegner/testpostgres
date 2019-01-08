@@ -10,7 +10,7 @@ exports.up = function(knex, Promise) {
           .notNullable()
         
         users
-          .string('role', 128)
+          .string('permissions', 128)
           .notNullable()
         });
     };
